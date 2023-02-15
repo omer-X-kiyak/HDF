@@ -1,0 +1,19 @@
+{
+    "intents": [
+        {
+            "tag": "greetings", 
+            "patterns": ["hello", "hey", "hi", "good today"], 
+            "responses": ["hello", "hey", "what can i do you"]
+        },
+        {
+            "tag": "welcome", 
+            "patterns": ["welcome", "welcom's", "how are you", "good to day"], 
+            "responses": ["hello", "hey", "what can i do you"]
+        },
+        {
+            "tag": "age", 
+            "patterns": ["how old", "what is your age", "age", "age"], 
+            "responses": ["21 years", "ben 21 yasindayim"]
+        }
+    ]
+}
